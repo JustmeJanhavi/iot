@@ -1,0 +1,104 @@
+*
+    {
+    
+      font-family: "montserrat",sans-serif;
+	  box-sizing:border-box;
+    }
+    .text
+    {
+      font-size: 60px;
+      font-family:Showcard Gothic;
+      font-weight: 800;
+      position: relative;
+      color: #34495e; 
+      text-align:center;
+    }
+	.container {
+		position:absolute;
+		left:150px;
+		top:100px;
+		width:80%;
+        height:500px;
+		background-color:rgb(179, 246, 191);
+	}
+	.imageicon{
+		position:absolute;
+		top:40px;
+		left:50px;
+	}
+	.pdf{
+		position:absolute;
+		top:5px;
+		left:300px;
+		width:250px;
+	}
+	.table{
+		top:70px;
+		position:absolute;
+		left:600px;
+	}
+	table, th, td {
+		border: 6px solid white;
+		border-collapse: collapse;
+	  }
+	  th, td {
+		background-color: #fff2cd;
+	  }
+	  .bcontainer {
+		position:absolute;
+		left:150px;
+		top:600px;
+		width:80%;
+        height:500px;
+		background-color:rgb(255, 213, 253);
+	}
+	@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+.results {
+  width: 300px;
+  height: 200px;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+#first {
+  background-image: url(1result.jpg);
+
+}
+
+#second {
+  background-image: url(2result.jpg);
+}
+
+#third {
+  background-image: url(3result.jpg);
+  
+}
+
+
+#fourth {
+  background-image: url(4RESULTS.JPG);
+}
+
+#wrapper {
+	position:absolute;
+	top:100px;
+  width: 800px;
+  height:500px;
+  margin:  auto;
+}
+.achieve{
+	position:absolute;
+	left:400px;
+	top:1150px;
+	background-color:rgb(179, 246, 191) ;
+}
+.video{
+	position:absolute;
+	left:400px;
+	top:1750px;
+}

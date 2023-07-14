@@ -1,0 +1,185 @@
+*
+    {
+    
+      font-family: "montserrat",sans-serif;
+	  box-sizing:border-box;
+    }
+    
+    .text
+    {
+      font-size: 60px;
+      font-family:Showcard Gothic;
+      font-weight: 800;
+      position: relative;
+      color: #34495e; 
+      text-align:center;
+    }
+    .container {
+        position:absolute;
+        left:400px;
+        top:100px;
+        width:50%;
+        height:150px;
+        background-color:rgb(247, 210, 222);
+    }
+    .nature{
+        position:absolute;
+        left:00px;
+        top:300px;
+        width:100%;
+        height:950px;
+        background-color:rgb(247, 247, 210);
+    }
+    header {
+        width: 100%;
+        background-color: #77cdb4;
+        text-align: center;
+      }
+      
+      .wrapper {
+        width: 80%;
+        margin: 10px auto;
+      }
+      
+      div.gallery {
+        margin-top: 20px;
+      }
+      
+      div.gallery ul {
+        list-style-type: none;
+        margin-left: 35px;
+      }
+      
+      div.gallery ul li {
+        position: relative;
+        float: left;
+        width: 330px;
+        height: 230px;
+        margin: 10px;
+        padding: 10px;
+        z-index: 0;
+      }
+    
+      /* Image is position nicely under li */
+      div.gallery ul li img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 2px solid #dddddd;
+        padding: 5px;
+        width: 330px;
+        height: 230px;
+        background: #f0f0f0;
+      }
+    
+      .textbox{
+        position: absolute;
+        top: 970px;
+        left:400px;
+        width:50%;
+      }
+      .rangoli{
+        position:absolute;
+        left:00px;
+        top:1900px;
+        width:100%;
+        height:750px;
+        background-color:rgb(230, 200, 246);
+    }
+    .p1{
+        position:absolute;
+        top:2000px;
+        left:100px;
+    }
+    .p2{
+        position:absolute;
+        top:0px;
+        left:450px;
+    }
+    .p3{
+        position:absolute;
+        top:0px;
+        left:450px;
+    }
+    .p4{
+        position:absolute;
+        top:300px;
+        left:-900px;
+    }
+    .p5{
+        position:absolute;
+        top:0px;
+        left:450px;
+    }
+    .p6{
+        position:absolute;
+        top:0px;
+        left:450px;
+    }
+    .flip-box {
+        background-color: transparent;
+        
+        width: 400px;
+        height: 270px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+      }
+      
+      /* Position the front and back side */
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      
+      /* Style the front side (fallback if image is missing) */
+      .flip-box-front {
+        background-color:rgb(230, 200, 246);
+        color: black;
+      }
+      
+      /* Style the back side */
+      .flip-box-back {
+        background-color: rgb(242, 216, 144);
+        color: rgb(17, 1, 1);
+        transform: rotateY(180deg);
+      }
+      .music{
+        position:absolute;
+        top:600px;
+        width:100%;
+        height:450px;
+        background-color:rgb(196, 238, 189);
+    }
+    img {
+        border: 5px solid rgb(255, 255, 255);
+      }
+    .songs{
+        position:absolute;
+        top:100px;
+        left:400px;
+    }
+   .benefits{
+        position: absolute;
+        top: 1070px;
+        left:400px;
+        width:50%;
+    }
+   
